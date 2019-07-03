@@ -1,0 +1,39 @@
+@font-face {
+	font-family: Roboto Condensed Light;
+	src: url("RobotoCondensed-Light.ttf");
+	src: url("./fonts/RobotoCondensed-Light.ttf");
+}
+
+#breakoutcanvas {
+	border: 1px solid white;
+}
+
+#difficultyHeader {
+	float: left;
+	width: 120px;
+}
+
+#difficulty {
+	float: left;
+	width: 67px;
+	margin-left: 5px;
+	padding-bottom: 3px;
+	border-radius: 3px;
+}
+
+#startButton {
+	float: left;
+	margin-left: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Roboto Condensed Light';
+}
+
+h1 {
+	margin-bottom: 15px;
+}

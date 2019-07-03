@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>BreakOut</title>
+	<link rel="stylesheet" type="text/css" href="css/breakout.css">
+	<link href="/favicon.ico" type="image/x-icon" rel="icon" />
+
+</head>
+
+<body>
+	<h1>BreakOut</h1>
+
+	<div id="difficultyHeader">Schwierigkeitsgrad: </div>
+
+	<div>
+		<select id="difficulty">
+			<option value="easy">Leicht</option>
+			<option value="middle">Mittel</option>
+			<option value="hard">Schwer</option>
+		</select>
+	</div>
+
+	<button type="button" id="startButton">Start</button>
+
+	<p id="canvas">
+		<canvas id="breakoutcanvas" width="600" height="500"></canvas>
+	</p>
+
+	<script src="app/gameobjects/Ball.js"></script>
+	<script src="app/gameobjects/Paddle.js"></script>
+	<script src="app/gameobjects/Brick.js"></script>
+	<script src="app/collisionChecker.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="app/BreakOutGame.js"></script>
+</body>
+
+</html>
